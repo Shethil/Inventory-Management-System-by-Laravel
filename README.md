@@ -13,6 +13,9 @@ For run it on local use a server (like XAMPP, LARAGON etc.) and set database nam
 git clone --single-branch --branch master https://github.com/Shethil/Inventory-Management-System-by-Laravel.git
 ```
 ### Goto the project directory
+```bash
+    cd your-repository
+```
 
 ### Install Composer
 
