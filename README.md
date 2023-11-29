@@ -51,3 +51,10 @@ php artisan migrate
 ```bash
 php artisan db:seed
 ```
+
+
+### Run the project
+
+```bash
+php artisan serve
+```
