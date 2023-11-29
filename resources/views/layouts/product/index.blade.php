@@ -15,12 +15,20 @@
 
 @section('content')
     <div class="row">
-        <h1>Product List Table</h1>
-        <div class="col-12">
-            <div class="d-flex justify-content-end">
-                <a href="{{ route('product.create') }}" class="btn btn-primary" <i class="fas fa-plus-circle"></i>
-                    Add New Product
-                </a>
+        <div class="row">
+            <div class="col-6">
+                <h1>Product List Table</h1>
+            </div>
+            <div class="col-6">
+                <div class="d-flex justify-content-end">
+                    <a href="{{ route('dashboard') }}" class="btn btn-primary me-2" <i class="fas fa-plus-circle"></i>
+                        Back to Dashboard
+                    </a>
+
+                    <a href="{{ route('product.create') }}" class="btn btn-primary" <i class="fas fa-plus-circle"></i>
+                        Add New Product
+                    </a>
+                </div>
             </div>
         </div>
         <div class="col-12">

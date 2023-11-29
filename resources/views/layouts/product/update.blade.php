@@ -13,7 +13,7 @@
             </div>
             <div class="col-6">
                 <div class="d-flex justify-content-end">
-                    <a href="{{ route('product.index') }}" class="btn btn-primary"> <i class="fas fa-backward"></i>
+                    <a href="{{ route('product.index') }}" class="btn btn-primary">
                         Back to Product
                     </a>
                 </div>
