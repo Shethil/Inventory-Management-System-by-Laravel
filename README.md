@@ -14,7 +14,7 @@ git clone --single-branch --branch master https://github.com/Shethil/Inventory-M
 ```
 ### Goto the project directory
 ```bash
-    cd your-repository
+cd your-repository
 ```
 
 ### Install Composer
